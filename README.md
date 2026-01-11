@@ -1,14 +1,14 @@
 # CLI Task Manager (Python)
 
 A simple command-line task manager built using Python.  
-Tasks are stored persistently in a JSON file.
+Tasks are stored permanently in a JSON file.
 
 ## Features
 - Add a task
 - View all tasks
 - Mark a task as completed
 - Delete a task
-- Persistent storage using a JSON file
+- Permanent storage using a JSON file
 
 ## How It Works
 - Tasks are loaded from `tasks.json` at program startup
@@ -25,7 +25,4 @@ Tasks are stored persistently in a JSON file.
 ## File Structure
 - `main.py` – program entry point
 - `tasks.py` – task logic
-- `tasks.json` – persistent storage
-
-## Notes
-- This is a small foundation project focused on clean design
+- `tasks.json` – permanent storage
